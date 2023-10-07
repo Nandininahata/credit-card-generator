@@ -17,8 +17,6 @@ function Card({onUpdateCardInfo}){
             theme: "light",
             });
     }
-function Card(){
-
     const [nameInput,setNameInput]=useState('');
     const [cninput,setcninput]=useState('');
     const [monthInput,setMonthInput]=useState('');
