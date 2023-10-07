@@ -1,6 +1,22 @@
 import React, {useState} from 'react';
 import './Card.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
+function Card({onUpdateCardInfo}){
+
+    const notify = ()=>{
+        toast.success('DONE!', {
+            position: "top-center",
+            autoClose: 3000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
+    }
 function Card(){
 
     const [nameInput,setNameInput]=useState('');
