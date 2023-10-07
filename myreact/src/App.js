@@ -1,8 +1,8 @@
 import React,{ useState } from 'react';
 import './App.css';
-import Card from './Components/Card';
-import CardFrontend from './Components/CardFrontend';
-import CardBackend from './Components/CardBackend';
+import Card from './components/Card';
+import CardFrontend from './components/CardFrontend';
+import CardBackend from './components/CardBackend';
 
 function App() {
 
