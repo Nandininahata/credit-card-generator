@@ -165,4 +165,4 @@ function Card({onUpdateCardInfo}){
         </div>
     )
 }
- export default card;
+ export default Card;
